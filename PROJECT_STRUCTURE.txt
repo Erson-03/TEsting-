@@ -1,0 +1,68 @@
+PARA-Frontend-Ultimate-AI/
+│
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
+├── .env.example
+├── .gitignore
+├── README.md
+├── PROJECT_STRUCTURE.txt
+│
+└── src/
+    ├── App.tsx
+    ├── main.tsx
+    ├── vite-env.d.ts
+    │
+    ├── components/
+    │   ├── assistant/
+    │   │   └── ParaAssistant.tsx
+    │   ├── layout/
+    │   │   ├── AppShell.tsx
+    │   │   ├── Sidebar.tsx
+    │   │   └── Topbar.tsx
+    │   └── ui/
+    │       ├── Badge.tsx
+    │       ├── Button.tsx
+    │       ├── Card.tsx
+    │       ├── EmptyState.tsx
+    │       ├── ErrorState.tsx
+    │       ├── LoadingState.tsx
+    │       ├── Modal.tsx
+    │       ├── PageHeader.tsx
+    │       └── StatCard.tsx
+    │
+    ├── context/
+    │   ├── AuthContext.tsx
+    │   ├── ThemeContext.tsx
+    │   └── ToastContext.tsx
+    │
+    ├── pages/
+    │   ├── ConstraintCenterPage.tsx
+    │   ├── DashboardPage.tsx
+    │   ├── DemandPredictionPage.tsx
+    │   ├── ExplainabilityPage.tsx
+    │   ├── FairnessMonitorPage.tsx
+    │   ├── InventoryPage.tsx
+    │   ├── LoginPage.tsx
+    │   ├── ModelMonitoringPage.tsx
+    │   ├── PriceOptimizationPage.tsx
+    │   ├── PriceRecommendationPage.tsx
+    │   ├── PricingHistoryPage.tsx
+    │   ├── ProductsPage.tsx
+    │   ├── SalesDataPage.tsx
+    │   ├── SensitivityAnalysisPage.tsx
+    │   └── SettingsPage.tsx
+    │
+    ├── data/
+    ├── hooks/
+    ├── services/
+    │   ├── assistantService.ts      # PARA AI mock/API boundary
+    │   ├── api/                     # Shared backend HTTP client + endpoints
+    │   └── mock/                    # Browser demo store
+    ├── styles/
+    │   └── globals.css
+    ├── types/
+    └── utils/
